@@ -1,0 +1,9 @@
+History.txt
+LICENSE.txt
+Manifest.txt
+README.txt
+Rakefile
+lib/jdbc
+lib/jdbc/postgres.rb
+lib/postgresql-8.4-702.jdbc3.jar
+lib/postgresql-8.4-702.jdbc4.jar

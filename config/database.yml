@@ -1,0 +1,11 @@
+production:
+  adapter: jndi
+  driver: org.postgresql.Driver
+  jndi: java:/helloDS
+
+production_afar:
+  adapter: postgresql
+  database: hello_prod
+  host: ec2-50-16-76-81.compute-1.amazonaws.com
+  username: _a18e23a61cace93872d6964d638a37f22c10bd0306bb4dc245e6256133ab
+  password: 89036c7ff23c202995723e88662b68e05ae56bf6775f4545417db74b7b09

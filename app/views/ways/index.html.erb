@@ -1,0 +1,23 @@
+<h1>Listing ways</h1>
+
+<table>
+  <tr>
+    <th>Text</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @ways.each do |way| %>
+  <tr>
+    <td><%= way.text %></td>
+    <td><%= link_to 'Show', way %></td>
+    <td><%= link_to 'Edit', edit_way_path(way) %></td>
+    <td><%= link_to 'Destroy', way, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Way', new_way_path %>
